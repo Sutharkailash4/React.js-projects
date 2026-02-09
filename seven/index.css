@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    background-color: #cbcdd1;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    padding-left: 150px;
+    padding-right: 50px;
+    background-color: #FFFFFF;
+    border-bottom: 3px solid rgb(151, 150, 150);
+}
+
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+li {
+    font-size: 20px;
+}
+
+aside {
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 60px;
+    border-right: 3px solid rgb(151, 150, 150);
+    background-color: #FFFFFF;
+}
+
+section {
+    padding-top: 120px;
+    padding-right: 50px;
+}
+
+section,
+footer {
+    padding-left: 140px;
+}
+
+.Upper_aside {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Upper_aside i {
+    font-size: 30px;
+}
+
+.middle_aside {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.left_nav {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+}
+
+.left_nav_text {
+    font-size: 20px;
+    font-weight: 100;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right_nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+i {
+    font-size: 25px;
+}
+
+
+.search_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 3px solid rgb(151, 150, 150);
+}
+
+.left_search_box {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.left_search_box div {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 5px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+.right_search_box {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.right_search_box div {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid black;
+}
+
+.section_heading {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.section_heading h2 {
+    font-size: 30px;
+}
+
+.main_section_big_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner_section_box {
+    width: 360px;
+    height: 400px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(151, 150, 150);
+}
+
+p {
+    color: #807a7a;
+}
+
+.img_main_box {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big_img {
+    width: 12 0px;
+    height: 100%;
+}
+
+.proflie_box {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.description_box {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.description_box p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.follower_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.follower_box div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.follower_box div h3 {
+    font-size: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    border-top: 3px solid rgb(151, 150, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+footer p {
+    color: black;
+}

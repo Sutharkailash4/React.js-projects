@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#root{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: #F0F0F0;
+}
+
+.box {
+    width: 350px;
+    height: 400px;
+        position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+.first_header{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.save{
+    padding: 7px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.save i{
+    font-size: 20px;
+}
+
+.second_header{
+    height: 130px;
+}
+
+.second_header h4{
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.second_header h2{
+    font-weight: 400;
+}
+
+.btn_box{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn_box button{
+    padding: 5px 14px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+footer{
+    width: 330px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+footer h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+footer .location{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+footer button{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+}

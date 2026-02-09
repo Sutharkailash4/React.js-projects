@@ -1,0 +1,15 @@
+import Header from './header.js';
+import { Content } from './content.js';
+import Footer from './footer.js';
+
+export default function App() {
+    return React.createElement(
+        'div',
+        null,
+        [
+            React.createElement(Header),
+            React.createElement(Content),
+            React.createElement(Footer)
+        ]
+    );
+}
